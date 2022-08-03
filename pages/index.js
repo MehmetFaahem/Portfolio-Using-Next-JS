@@ -32,8 +32,8 @@ export default function Home() {
                   <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                     Hey, I'am 17. I am an professional React Native Developer. I am continuously enlarging my depth of experience in React JS and React Native. I am familier with REST API.
                   </p>
-                  <div className="mt-5 sm:mt-8 sm:flex sm:justify-center hover:translate-y-5 lg:justify-start">
-                    <div className="rounded-md shadow">
+                  <div className="mt-5 sm:mt-8 sm:flex sm:justify-center  lg:justify-start">
+                    <div className="rounded-md shadow hover:translate-y-5">
                       <a
                         href="/projects"
                         className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
@@ -51,7 +51,7 @@ export default function Home() {
                     </div>
                   </div>
                   <Link href='/skills'>
-                    <Button variant="outlined" startIcon={<SchoolIcon />} sx={{marginTop: 5, padding: 1}} className='p-4 bg-zinc-900 text-orange-100 hover:bg-indigo-900'>
+                    <Button variant="outlined" startIcon={<SchoolIcon />} sx={{marginTop: 5, padding: 3}} className='p-4 bg-zinc-900 text-orange-100 hover:bg-indigo-900'>
                       Skills
                     </Button>
                   </Link>
