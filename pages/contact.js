@@ -12,7 +12,7 @@ function contact() {
                         <Input placeholder='faahem@gmail.com' className='text-white text-xl'
                             type='email'
                             required
-        sx={{color: '#0C4A6E', padding: 7, paddingLeft: 6, fontWeight: 'bold'}}
+        sx={{color: '#0EA5E9', padding: 7, paddingLeft: 6, fontWeight: 'bold'}}
                         />
                     </div>
                 </div>
@@ -26,7 +26,7 @@ function contact() {
                             maxRows='10'
                             minRows='3'
                             defaultValue='Just Awesome, but you should improve a lot of things !'
-        sx={{color: '#0C4A6E', padding: 7, paddingLeft: 6, fontWeight: 'bold'}}
+        sx={{color: '#0EA5E9', padding: 7, paddingLeft: 6, fontWeight: 'bold'}}
                         />
                     </div>
                 </div>
@@ -35,9 +35,9 @@ function contact() {
                 </Button>
             </div>
             <div>
-                <h1 className='text-8xl font-sans ui:sans-serif text-end mb-1'>Through</h1>
+                <h1 className='text-8xl font-sans ui:sans-serif text-end mb-1 text-white'>Through</h1>
                 <h1 className='text-8xl font-sans text-sky-500 ui:sans-serif text-end mb-1'>Your Opinion</h1>
-                <h1 className='text-8xl font-sans ui:sans-serif text-end'>About Me</h1>
+                <h1 className='text-8xl font-sans ui:sans-serif text-end text-white'>About Me</h1>
             </div>
         </div>
     )
