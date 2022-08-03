@@ -29,7 +29,7 @@ function ReactProjects() {
                                 alt="React"
                             />
                             <CardContent className='bg-amber-500 text-black'>
-                                <Typography gutterBottom variant="h5" component="div" className='mt-3 text-black font-bold'>
+                                <Typography gutterBottom variant="h5" component="div"  sx={{fontWeight: 'bold'}} className='mt-3 text-black font-bold'>
                                     Food Delivery App
                                 </Typography>
                             </CardContent>
