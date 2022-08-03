@@ -4,7 +4,7 @@ import SendIcon from '@mui/icons-material/Send';
 
 function contact() {
     return (
-        <div className='p-20 flex flex-row place-items-center justify-between'>
+        <div className='p-20 flex flex-row place-items-center justify-between bg-neutral-900 pb-10'>
             <div>
                 <div className=''>
                     <h1 className='mb-6 text-sky-600 text-2xl font-extrabold'>Your Email</h1>
@@ -12,7 +12,7 @@ function contact() {
                         <Input placeholder='faahem@gmail.com' className='text-white text-xl'
                             type='email'
                             required
-        sx={{color: 'white', padding: 7, paddingLeft: 6}}
+        sx={{color: '#0C4A6E', padding: 7, paddingLeft: 6, fontWeight: 'bold'}}
                         />
                     </div>
                 </div>
@@ -26,11 +26,11 @@ function contact() {
                             maxRows='10'
                             minRows='3'
                             defaultValue='Just Awesome, but you should improve a lot of things !'
-        sx={{color: 'white', padding: 7, paddingLeft: 6}}
+        sx={{color: '#0C4A6E', padding: 7, paddingLeft: 6, fontWeight: 'bold'}}
                         />
                     </div>
                 </div>
-                <Button variant="contained" endIcon={<SendIcon />} className='text-md' sx={{marginTop: 10, padding: 5}}>
+                <Button variant="contained" endIcon={<SendIcon />} className='text-md' sx={{marginTop: 10, padding: 2}}>
                     Send
                 </Button>
             </div>
