@@ -130,10 +130,10 @@ function skills() {
                 </div>
 
                 <div className='fixed' style={{ marginLeft: 760 }} >
-                    <h1 style={{ marginTop: 320, fontWeight: 'bold', fontSize: 50, marginRight: 310 }} >Skills</h1>
+                    <h1 style={{ marginTop: 320, fontWeight: 'bold', fontSize: 50, marginRight: 310, color: 'white' }} >Skills</h1>
                 </div>
             </Stack>
-            <div className='p-24 ml-2'>
+            <div className='p-24 bg-neutral-900'>
                 <Link href='/'>
                     <Button variant="outlined" startIcon={<ArrowBackIosIcon />} className='text-white'>
                         Back
