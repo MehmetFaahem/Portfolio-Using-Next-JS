@@ -38,10 +38,7 @@ function reactnative() {
                     <div style={{ marginTop: 145, marginRight: 50 }}>
                         <div className='opacity-30 fixed mt-16 ' style={{ marginLeft: 200 }}>
                             <Image src="https://img.icons8.com/wired/200/000000/react.png" width='200' height='200' className=' animate-spin-slow ' />
-                        </div>
-//                         <div>
-//                             <Typography className='text-3xl p-4 ml-40 top-80 font-sans ui-sans-serif fixed'>React Native Projects</Typography>
-//                         </div>
+                        </div>                      
                     </div>
                 </Stack>
             </div>
