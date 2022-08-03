@@ -11,7 +11,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 function ReactProjects() {
     return (
         <>
-            <div className='p-8 ml-2 bg-neutral-900'>
+            <div className='p-8 ml-2 bg-neutral-900 pb-20'>
                 <Link href='/projects'>
                     <Button variant="outlined" startIcon={<ArrowBackIosIcon />} className='text-white'>
                         Back
@@ -38,10 +38,6 @@ function ReactProjects() {
                     <div className='opacity-30 fixed' style={{ left: 868 }}>
                         <Image src="https://img.icons8.com/wired/300/000000/react.png" width='300' height='300' className=' animate-spin-slow ' />
                     </div>
-                    {/* <div className='outline-2 outline-white outline-dashed fixed h-44 w-48 animate-spin left-2/3'></div> */}
-//                     <div>
-//                         <Typography className='text-5xl p-4 ml-44 font-sans ui-sans-serif'>React JS Projects</Typography>
-//                     </div>
                 </div>
             </div>
         </>
