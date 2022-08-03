@@ -19,7 +19,7 @@ export default function projects() {
                     </Button>
                 </Link>
             </div>
-            <div className='bg-neutral-900 flex flex-row font-sans place-items-center ui-sans-serif pt-32  pb-44'>
+            <div className='bg-neutral-900 flex flex-row font-sans place-items-center ui-sans-serif pt-32 pb-48'>
 
                 <h1 className='text-8xl ml-40 text-sky-300 font-sans pr-9'>Projects</h1>
                 <div className='p-10 flex flex-row'>
