@@ -12,7 +12,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 export default function projects() {
     return (
         <>
-            <div className='p-7 ml-2 fixed bg-neutral-900'>
+            <div className='p-7 ml-2 fixed bg-neutral-900 pb-44'>
                 <Link href='/'>
                     <Button variant="outlined" startIcon={<ArrowBackIosIcon />} className='text-white'>
                         Back
