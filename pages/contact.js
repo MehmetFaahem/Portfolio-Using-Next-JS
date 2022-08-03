@@ -9,9 +9,10 @@ function contact() {
                 <div className=''>
                     <h1 className='mb-6 text-sky-600 text-2xl font-extrabold'>Your Email</h1>
                     <div className='border-l-8 rounded-xl border-sky-800'>
-                        <Input placeholder='faahem@gmail.com' className='text-white p-4 pl-7 text-xl'
+                        <Input placeholder='faahem@gmail.com' className='text-white text-xl'
                             type='email'
                             required
+        sx={{color: 'white', padding: 7, paddingLeft: 6}}
                         />
                     </div>
                 </div>
@@ -25,10 +26,11 @@ function contact() {
                             maxRows='10'
                             minRows='3'
                             defaultValue='Just Awesome, but you should improve a lot of things !'
+        sx={{color: 'white', padding: 7, paddingLeft: 6}}
                         />
                     </div>
                 </div>
-                <Button variant="contained" endIcon={<SendIcon />} className='mt-8 p-6 text-md'>
+                <Button variant="contained" endIcon={<SendIcon />} className='text-md' sx={{marginTop: 10, padding: 5}}>
                     Send
                 </Button>
             </div>
