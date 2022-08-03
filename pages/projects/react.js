@@ -11,14 +11,14 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 function ReactProjects() {
     return (
         <>
-            <div className='p-8 ml-2 bg-neutral-900 pb-20'>
+            <div className='p-8 ml-2 bg-neutral-900'>
                 <Link href='/projects'>
                     <Button variant="outlined" startIcon={<ArrowBackIosIcon />} className='text-white'>
                         Back
                     </Button>
                 </Link>
             </div>
-            <div className='p-12 flex bg-neutral-900'>
+            <div className='p-12 flex bg-neutral-900 pb-20'>
                 <div className='flex flex-row place-items-center'>
                     <Card sx={{ maxWidth: 600, borderRadius: 4, }} className='mt-3 hover:scale-105 hover:shadow-amber-500 shadow-white shadow-xl'>
                         <CardActionArea>
