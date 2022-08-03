@@ -39,9 +39,9 @@ function ReactProjects() {
                         <Image src="https://img.icons8.com/wired/300/000000/react.png" width='300' height='300' className=' animate-spin-slow ' />
                     </div>
                     {/* <div className='outline-2 outline-white outline-dashed fixed h-44 w-48 animate-spin left-2/3'></div> */}
-                    <div>
-                        <Typography className='text-5xl p-4 ml-44 font-sans ui-sans-serif'>React JS Projects</Typography>
-                    </div>
+//                     <div>
+//                         <Typography className='text-5xl p-4 ml-44 font-sans ui-sans-serif'>React JS Projects</Typography>
+//                     </div>
                 </div>
             </div>
         </>
