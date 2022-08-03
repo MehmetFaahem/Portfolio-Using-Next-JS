@@ -12,14 +12,14 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 export default function projects() {
     return (
         <>
-            <div className='p-7 ml-2 fixed bg-neutral-900 pb-44'>
+            <div className='p-7 ml-2 fixed bg-neutral-900'>
                 <Link href='/'>
                     <Button variant="outlined" startIcon={<ArrowBackIosIcon />} className='text-white'>
                         Back
                     </Button>
                 </Link>
             </div>
-            <div className='bg-neutral-900 flex flex-row font-sans place-items-center ui-sans-serif pt-32'>
+            <div className='bg-neutral-900 flex flex-row font-sans place-items-center ui-sans-serif pt-32  pb-44'>
 
                 <h1 className='text-8xl ml-40 text-sky-300 font-sans pr-9'>Projects</h1>
                 <div className='p-10 flex flex-row'>
