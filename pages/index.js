@@ -51,8 +51,8 @@ export default function Home() {
                     </div>
                   </div>
                   <Link href='/skills'>
-                    <Button variant="outlined" startIcon={<SchoolIcon />} className='mt-3 p-4 hover:translate-x-5 bg-zinc-900 text-orange-100 hover:bg-indigo-900 hover:text-3xl'>
-                      <Typography>Skills</Typography>
+                    <Button variant="outlined" startIcon={<SchoolIcon />} sx={{marginTop: 3, padding: 4}} className='p-4 hover:translate-x-5 bg-zinc-900 text-orange-100 hover:bg-indigo-900 hover:text-3xl'>
+                      Skills
                     </Button>
                   </Link>
                 </div>
