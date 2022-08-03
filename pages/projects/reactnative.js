@@ -43,7 +43,7 @@ function reactnative() {
                 </Stack>
             </div>
 
-            <div className='p-10 ml-2 bg-neutral-900'>
+            <div className='p-10 bg-neutral-900'>
                 <Link href='/projects'>
                     <Button variant="outlined" startIcon={<ArrowBackIosIcon />} className='text-white'>
                         Back
