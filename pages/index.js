@@ -59,7 +59,7 @@ export default function Home() {
               </main>
             </div>
           </div>
-          <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 mt-10 mr-32 sm:invisible">
+          <div className="lg:inset-y-0 lg:right-0 lg:w-1/3 mt-10 mr-32 sm:invisible md:visible">
             <img
               className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
               src="https://i.ibb.co/2hVHJFt/Covdffer.png"
